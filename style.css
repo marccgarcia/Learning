@@ -1,0 +1,37 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+#header {
+  padding: 2em;
+  background-color: black;
+  color: black;
+}
+
+#logo-main {
+  font-size: 2.5em;
+}
+
+#logo-title{
+  color: white;
+}
+
+#menu {
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
+}
