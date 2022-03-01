@@ -8,10 +8,20 @@
   padding: 2em;
   background-color: black;
   color: black;
+  text-align: right;
+}
+
+#login {
+  color: white;
+}
+
+#sign-up {
+  color: white;
 }
 
 #logo-main {
   font-size: 2.5em;
+  float:left;
 }
 
 #logo-title{
@@ -22,6 +32,7 @@
   padding: 1em;
   background-color: white;
   color: black;
+  text-align: right;
 }
 
 #menu > ul {
@@ -34,4 +45,21 @@
   display: inline-block;
   padding: 0.5em;
   border-left: thin solid lightgray;
+}
+
+#sub-principal {
+  background-color: gray;
+}
+
+#sub-principal > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
+}
+
+#content {
+  padding: 1em;
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
 }
