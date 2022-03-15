@@ -158,18 +158,3 @@
   #footer {
     grid-template-columns: 1fr;
   }
-
-  .grid-r1 {
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .grid-r1 h6 {
-    margin-bottom: 1em;
-  }
-
-  .grid-r1 {
-    grid-template-columns: 1fr;
-  }
-
-}
