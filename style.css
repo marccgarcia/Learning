@@ -27,6 +27,21 @@
   color: white;
 }
 
+#sub-principal {
+  padding: 2em;
+  background-color: black;
+  color: black;
+  text-align: left;
+}
+
+#titulo-main {
+  color: white;
+}
+
+#sub-principal > ul {
+  color: white;
+}
+
 #menu {
   padding: 1em;
   background-color: white;
