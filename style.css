@@ -1,7 +1,6 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  border: thin solid red;
 }
 
 #header {
@@ -135,4 +134,27 @@
 
 #redes {
   font-size: 20px;
+}
+
+/* EN EL MÓVIL */
+
+@media (max-width: 1024px) {
+
+  #footer {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-r1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .grid-r1 h6 {
+    margin-bottom: 1em;
+  }
+
+  .grid-r1 {
+    grid-template-columns: 1fr;
+  }
+
 }
